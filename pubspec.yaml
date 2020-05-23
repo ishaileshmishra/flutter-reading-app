@@ -58,3 +58,12 @@ flutter:
         - asset: assets/fonts/times-new-roman-italic.ttf
         - asset: assets/fonts/times-new-roman-bold.ttf
         - asset: assets/fonts/times-new-roman bold-italic.ttf
+    
+    - family: Comic
+      fonts:
+        - asset: assets/fonts/comic/comic-regular.ttf
+        - asset: assets/fonts/comic/comic-light.ttf
+        - asset: assets/fonts/comic/comic-italic.ttf
+        - asset: assets/fonts/comic/comic-lightItalic.ttf
+        - asset: assets/fonts/comic/comic-bold.ttf
+        - asset: assets/fonts/comic/comic-boldItalic.ttf

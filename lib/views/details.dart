@@ -184,10 +184,14 @@ class Details extends StatelessWidget {
                             ),
                           ),
 
-
+                          SizedBox(height: 10),
                           Center(
                             child: Container(
-                              height: 20,
+                              decoration: BoxDecoration(
+                                borderRadius: BorderRadius.all(Radius.circular(60)),
+                                color: Colors.grey.shade300
+                              ),
+                              height: 30,
                               width: MediaQuery.of(context).size.width,
                               child: detailsProvider.downloaded
                                   ?  FlatButton(
@@ -198,7 +202,6 @@ class Details extends StatelessWidget {
                                       String path = dl['path'];
                                       EpubKitty.setConfig("androidBook", "#06d6a7","vertical",true);
                                       EpubKitty.open(path);
-
                                       pageChannel.receiveBroadcastStream().listen((Object event) {
                                         print('page:$event');
                                       }, onError: null);
@@ -218,7 +221,7 @@ class Details extends StatelessWidget {
                                       .replaceAll(r"\'", ""),
                                 ),
                                 child: Text(
-                                  "Download",
+                                  "Download", style: TextStyle(fontWeight: FontWeight.bold , color: Colors.black),
                                 ),
                               ),
                             ),

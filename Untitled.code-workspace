@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../../../Downloads/comic"
+		}
+	],
+	"settings": {
+		"editor.fontFamily": "Comic Neue",
+		"editor.fontSize": 14
+	}
+}

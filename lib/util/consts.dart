@@ -5,19 +5,19 @@ import 'dart:math';
 class Constants{
 
   //App related strings
-  static String appName = "Flutter Ebook App";
+  static String appName = "Ebook App";
 
 
   //Colors for theme
   static Color lightPrimary = Colors.white;
   static Color darkPrimary = Colors.black;
-  static Color lightAccent = Color(0xff06d6a7);
-  static Color darkAccent = Color(0xff06d6a7);
+  static Color lightAccent = Color(0xFFD60622);
+  static Color darkAccent = Color(0xFFD60622);
   static Color lightBG = Colors.white;
   static Color darkBG = Colors.black;
 
   static ThemeData lightTheme = ThemeData(
-    fontFamily: "TimesNewRoman",
+    fontFamily: "Comic",
     backgroundColor: lightBG,
     primaryColor: lightPrimary,
     accentColor:  lightAccent,
@@ -27,7 +27,7 @@ class Constants{
       elevation: 0,
       textTheme: TextTheme(
         title: TextStyle(
-          fontFamily: "TimesNewRoman",
+          fontFamily: "Comic",
           color: Colors.black,
           fontSize: 20,
           fontWeight: FontWeight.w800,
